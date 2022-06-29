@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat:400,700');
+
+header {
+	position: absolute;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	background-color: #fed691;
+	color: #76323f;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fed691;
+
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#therapists,
+#how,
+#pricing,
+#contact {
+	margin-bottom: 0!important;
+}
+
+a {
+	font-family: 'Cardo', serif;
+	outline: none;
+	font-size: 1rem;
+}
+
+nav ul {
+	position: relative;
+	left: 383px;
+}
+
+nav ul a {
+	color: #76323f;
+	font-size: 24px;
+}
+
+nav ul a:hover {
+	background-color: inherit;
+	color: #fed691;
+}
+
+nav i.material-icons {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.tel {
+	float: right;
+	padding-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #76323f;
+	font-size: 38px;
+}
+
+.sidenav {
+	background-color: #fed691;
+}
+
+.sidenav li>a {
+	font-size: 18px;
+}
+
+.sidenav .active::after {
+	display: none;
+}
+
+
+.mob_view {
+	padding: 10px 10px 50px 10px;
+	text-align: center;
+}
+
+.mob_view .email {
+	margin: 0;
+	font-size: 18px;
+}
+
+.mob_view .email span {
+	position: relative;
+	top: -6px;
+}
+
+footer a {
+	color: #f7f7f7;
+}
+
+.container_wrapper {
+	background-color: #f7f7f7;
+}
+
+.therapists_container_wrapper {
+	background-color: #76323f;
+	color: #f7f7f7;
+}
+
+.header {
+	height: 100vh;
+	background-image: url("../img/main.jpg");
+	background-size: cover;
+}
+
+
+nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+	height: 120px;
+	line-height: 120px;
+}
+
+nav .brand-logo {
+	margin-left: 55px;
+	height: 328px;
+	width: 328px;
+	background-image: url("../img/logo_big_.png");
+	text-align: center;
+}
+
+.email {
+	color: #76323f;
+	font-size: 18px;
+	line-height: 18px;
+	display: block;
+	margin-top: 240px;
+}
+
+.navbar{
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+	background-color: rgba(255,255,255,1);
+	box-shadow: none;
+}
+
+
+.active::after {
+	background-color: #fed691;
+	content: '';
+	height: 1px;
+	display: block;
+	position: relative;
+	top: -40px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #76323f;
+	background-color: #fed691;
+	height: 60px;
+	line-height: 60px;
+}
+
+.btn_main {
+	position: relative;
+	top: 20px;
+}
+.btn_additional {
+	margin: 30px 0 40px 0;
+	background-color: #fff;
+}
+
+.btn:focus, .btn-large:focus, .btn-floating:focus {
+	background-color: #1d7d74;
+}
+
+.theropists_item {
+	margin: 0.5rem 0 1rem 0;
+	transition: box-shadow .25s;
+	border-radius: 2px;
+	border: solid 2px #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.theropists_description {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+.col.s12.m6.center.massage_type_block_wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.massage_type_block {
+	background-color: rgba(255, 255, 255, 0.7);
+	height: 460px;
+	margin: 1px;
+	padding: 10px;
+}
+
+.parallax-container {
+	/*min-height: 1075px;*/
+	margin-bottom: 0;
+}
+
+
+/*typography*/
+.bold {
+	font-weight: 700;
+}
+.h2_caption {
+	display: inline-block;
+	position: relative;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.h2_caption:before {
+	content: "";
+	position: absolute;
+	display: block;
+	background-color: #813f2f;
+	height: 1px;
+	width: 50px;
+	left: 0;
+	margin-left: -60px;
+	top: 50%;
+}
+
+.h2_caption:after {
+	content: "";
+	position: absolute;
+	display: block;
+	background-color: #813f2f;
+	height: 1px;
+	width: 50px;
+	right: 0;
+	margin-right: -60px;
+	top:50%;
+}
+
+.h3_caption {
+	font-size: 24px;
+}
+
+.h1_caption {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 700;
+	text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.description {
+	font-family: 'Cardo', serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #333;
+}
+
+.contact_description {
+	font-family: 'Cardo', serif;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 24px;
+	color: #333;
+}
+
+.time {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 70px;
+}
+
+.price {
+	font-size: 30px;
+	line-height: 60px;
+}
+
+.time + div {
+	font-size: 24px;
+	width: 100%;
+	padding-bottom: 22px;
+	border-bottom: dashed 1px #6b6b6b;
+}
+
+.page-footer {
+	padding-top: 20px;
+	font-size: 18px;
+	color: #f7f7f7;
+	background-color: #76323f;
+}
+
+.page-footer .footer-copyright {
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(51, 51, 51, 0.5);
+}
+/*time picker*/
+.timepicker-digital-display {
+	background-color: #76323f;
+}
+
+.timepicker-canvas line {
+	stroke: white;
+}
+
+.timepicker-canvas-bg {
+	fill: white;
+}
+
+.timepicker-canvas-bearing {
+	fill: white;
+}
+/*end time picker*/
+
+/*date picker*/
+.datepicker-date-display {
+	background-color: #76323f;
+}
+
+.datepicker-date-display .date-text {
+	font-size: 1.8rem;
+}
+/*end date picker*/
+
+
+@media (max-width:1440px) and (min-width: 768px) {
+
+	nav .brand-logo {
+		margin-left: 55px;
+		height: 200px;
+		width: 200px;
+		background-image: url("../img/logo_medium.png");
+	}
+
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		height: 80px;
+		line-height: 80px;
+	}
+
+	nav ul {
+		position: relative;
+		left: 255px;
+	}
+
+	nav ul a {
+		color: #76323f;
+		font-size: 18px;
+	}
+
+	.tel {
+		font-size: 30px;
+	}
+
+	.email {
+		font-size: 14px;
+		line-height: 14px;
+		margin-top: 150px;
+	}
+
+	.active::after {
+		background-color: #fed691;
+		content: '';
+		height: 1px;
+		display: block;
+		position: relative;
+		top: -25px;
+	}
+
+	.massage_type_block {
+		height: 520px;
+	}
+
+}
+
+/*notebooks*/
+@media (max-width:1440px) and (min-width: 1025px) {
+
+}
+
+/*iPad horizontal*/
+@media (max-width:1024px) and (min-width: 993px) {
+
+	.tel {
+		display: flex;
+		align-content: center;
+		font-size: 20px;
+	}
+
+}
+
+/*iPad vertical*/
+@media (max-width:992px) and (min-width: 768px) {
+
+	nav .brand-logo {
+		left: 0;
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.tel {
+		display: flex;
+		align-content: center;
+		font-size: 20px;
+	}
+
+	.header {
+		background-position: 20%;
+	}
+
+}
+
+/*iPhone 5, 6 horizontal*/
+@media (max-width:767px) and (min-width: 481px) {
+
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	nav .brand-logo {
+		display: none;
+	}
+
+	.tel {
+		font-size: 20px;
+	}
+
+	.tel>span {
+		position: relative;
+		top: -5px;
+	}
+
+	.h1_caption {
+		font-size: 40px;
+	}
+
+	.h2_caption:before {
+		display: none;
+	}
+
+	.h2_caption:after {
+		display: none;
+	}
+
+}
+
+/*iPhone 5 vertical*/
+@media (max-width:480px) {
+	.header {
+		background-position: center;
+	}
+
+	nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+		height: 60px;
+		line-height: 60px;
+	}
+
+	nav .brand-logo {
+		display: none;
+	}
+
+	.tel {
+		float: none;
+		padding-right: 0;
+		font-size: 20px;
+	}
+
+	.tel>span {
+		position: relative;
+		top: -5px;
+	}
+
+	.h1_caption {
+		font-size: 40px;
+	}
+
+	.h2_caption:before {
+		display: none;
+	}
+
+	.h2_caption:after {
+		display: none;
+	}
+
+	.btn {
+		font-size: 20px;
+	}
+
+}
